@@ -20,6 +20,7 @@ import {
   ChevronRight,
   Check,
   Presentation,
+  Shirt,
 } from "lucide-react"
 
 const iconMap: Record<string, React.ReactNode> = {
@@ -29,6 +30,7 @@ const iconMap: Record<string, React.ReactNode> = {
   UtensilsCrossed: <UtensilsCrossed className="h-4 w-4" />,
   Cog: <Cog className="h-4 w-4" />,
   Lightbulb: <Lightbulb className="h-4 w-4" />,
+  Shirt: <Shirt className="h-4 w-4" />,
 }
 
 export function DemoSwitcher() {

@@ -1383,6 +1383,248 @@ export const demoProducts: DemoProduct[] = [
       ],
     },
   },
+
+  // PATAGONIA - R1 Ultralight Fleece Hoody
+  {
+    id: "patagonia-r1-ultralight-hoody",
+    sector: "Kledij",
+    sectorIcon: "Shirt",
+    brand: {
+      name: "Patagonia",
+      logo: "/images/patagonia-logo.svg",
+      color: {
+        hue: 55,
+        primary: "oklch(0.55 0.12 55)",
+        primaryForeground: "oklch(0.98 0 0)",
+        secondary: "oklch(0.94 0.04 55)",
+        muted: "oklch(0.90 0.06 55)",
+      },
+    },
+    product: {
+      name: "R1 Ultralight Fleece Hoody",
+      series: "R1 Ultralight",
+      model: "40035-BCBN",
+      description: "Warme en ademende technische fleece hoodie, essentieel voor pro-atleten en toegewijde klimmers. Bijna zo licht als je favoriete basislaag, met een glad, slijtvast buitenoppervlak. Onderdeel van de Free Wall Kit, ontworpen voor veeleisende multipitch routes. Gemaakt in een Fair Trade Certified fabriek.",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/40035_BCBN-gGC50LKaF1LilXS155nMW6xjxsrusw.webp",
+      serialNumber: "PAT-2025-R1U-40035",
+      upc: "195699401234",
+      manufactureDate: "2025-01-15",
+      warrantyUntil: "Levenslange garantie",
+      status: "active",
+    },
+    documentation: [
+      {
+        title: "Verzorgingsinstructies",
+        type: "PDF",
+        category: "Handleidingen",
+        url: "https://eu.patagonia.com/be/en/product/mens-r1-ultralight-fleece-hoody/40035.html",
+        size: "0.5 MB",
+        language: "NL",
+        icon: "Book",
+      },
+      {
+        title: "Reparatiegids",
+        type: "PDF",
+        category: "Handleidingen",
+        url: "https://www.patagonia.com/repairs/",
+        downloadUrl: "https://www.patagonia.com/on/demandware.static/-/Library-Sites-PatagoniaShared/default/repair-guide.pdf",
+        size: "2.3 MB",
+        language: "EN",
+        icon: "Wrench",
+      },
+      {
+        title: "Ironclad Guarantee",
+        type: "Web",
+        category: "Garantie",
+        url: "https://eu.patagonia.com/be/en/ironclad-guarantee.html",
+        language: "EN",
+        icon: "Shield",
+      },
+      {
+        title: "Fair Trade Certificaat",
+        type: "PDF",
+        category: "Certificaten",
+        downloadUrl: "https://www.patagonia.com/on/demandware.static/-/Library-Sites-PatagoniaShared/default/fair-trade-cert.pdf",
+        size: "0.8 MB",
+        language: "EN",
+        icon: "Award",
+      },
+    ],
+    specifications: {
+      key: [
+        { label: "Materiaal", value: "100% Recycled Polyester", icon: "Recycle" },
+        { label: "Gewicht", value: "280g", icon: "Scale" },
+        { label: "Maat", value: "M", icon: "Ruler" },
+        { label: "Kleur", value: "Bobcat Brown", icon: "Palette" },
+      ],
+      categories: [
+        {
+          name: "Materiaalsamenstelling",
+          specs: [
+            { label: "Stof", value: "4.6-oz 100% gerecycled polyester" },
+            { label: "Type", value: "Flat-faced double knit" },
+            { label: "Buitenzijde", value: "Glad, slijtvast oppervlak" },
+            { label: "Productie", value: "Fair Trade Certified fabriek" },
+          ],
+        },
+        {
+          name: "Afmetingen (Maat M)",
+          specs: [
+            { label: "Gewicht", value: "280 g" },
+            { label: "Pasvorm", value: "Slim fit" },
+            { label: "Herkomst", value: "Made in Vietnam" },
+            { label: "Stijlnummer", value: "40035" },
+          ],
+        },
+        {
+          name: "Kenmerken",
+          specs: [
+            { label: "Capuchon", value: "Helm-compatibel design" },
+            { label: "Rits", value: "Diepe center-front rits voor ventilatie" },
+            { label: "Schouders", value: "Naadloze single-panel mouwconstructie" },
+            { label: "Zakken", value: "2 verticale borstzakken met rits" },
+          ],
+        },
+        {
+          name: "Verzorging",
+          specs: [
+            { label: "Wassen", value: "Machine was warm" },
+            { label: "Bleken", value: "Niet bleken" },
+            { label: "Drogen", value: "Tumbeldrogen laag" },
+            { label: "Strijken", value: "Koel strijken indien nodig" },
+          ],
+        },
+      ],
+    },
+    replacementParts: [
+      {
+        id: "pat-zipper-r1",
+        name: "Vervangende Center Rits",
+        partNumber: "PAT-R1-ZIP-001",
+        category: "Reparatie",
+        quantity: 1,
+        unit: "stuks",
+        lifespan: "Levenslang",
+        description: "Originele YKK vervangende rits voor R1 Ultralight Hoody",
+        specifications: [
+          { label: "Type", value: "YKK Vislon" },
+          { label: "Lengte", value: "Volledige front" },
+        ],
+      },
+      {
+        id: "pat-cord",
+        name: "Capuchon Koord",
+        partNumber: "PAT-R1-CORD-001",
+        category: "Accessoires",
+        quantity: 1,
+        unit: "set",
+        lifespan: "5+ jaar",
+        description: "Vervangende capuchon aanpaskoorden",
+        specifications: [
+          { label: "Materiaal", value: "Elastisch koord" },
+          { label: "Kleur", value: "Bijpassend" },
+        ],
+      },
+    ],
+    optionalProducts: [
+      {
+        id: "pat-nano-puff",
+        name: "Nano Puff Jacket",
+        partNumber: "84212-BLK",
+        category: "Buitenlaag",
+        description: "Lichtgewicht isolerende jas voor extra warmte over de R1",
+        specifications: [
+          { label: "Isolatie", value: "60g PrimaLoft Gold" },
+          { label: "Gewicht", value: "337g" },
+        ],
+      },
+      {
+        id: "pat-cap-cool",
+        name: "Capilene Cool Daily Hoody",
+        partNumber: "45310-WHI",
+        category: "Basislaag",
+        description: "Lichtgewicht zonbeschermende basislaag onder de R1",
+        specifications: [
+          { label: "UPF", value: "50+" },
+          { label: "Materiaal", value: "Recycled Polyester" },
+        ],
+      },
+      {
+        id: "pat-torrent",
+        name: "Torrentshell 3L Jacket",
+        partNumber: "85240-BLK",
+        category: "Beschermlaag",
+        description: "Waterdichte buitenlaag voor natte condities",
+        specifications: [
+          { label: "Membraan", value: "H2No Performance" },
+          { label: "Waterkolom", value: "20.000 mm" },
+        ],
+      },
+    ],
+    maintenance: {
+      history: [],
+      upcoming: [],
+    },
+    sustainability: {
+      co2Footprint: "8.2 kg CO2e",
+      recyclability: "92%",
+      repairabilityScore: 9,
+      materials: [
+        { name: "Gerecycled Polyester", percentage: 100, recyclable: true },
+      ],
+      certifications: ["Fair Trade Certified", "1% for the Planet"],
+      energySavingFeatures: [
+        "100% gerecycled polyester - verminderde CO2 uitstoot",
+        "Fair Trade Certified fabriek - eerlijke lonen voor arbeiders",
+        "Ironclad Guarantee - levenslange garantie verlengt levensduur",
+        "Worn Wear reparatieprogramma - professionele reparaties",
+        "Lichtgewicht design (280g) - minder materiaalgebruik",
+      ],
+    },
+    certifications: [
+      {
+        name: "Fair Trade Certified",
+        issuer: "Fair Trade USA",
+        validUntil: "2027-12-31",
+        number: "FT-2025-PAT-40035",
+      },
+      {
+        name: "1% for the Planet",
+        issuer: "1% for the Planet",
+        validUntil: "2026-12-31",
+        number: "1FTP-PAT-2025",
+      },
+      {
+        name: "Ironclad Guarantee",
+        issuer: "Patagonia",
+        validUntil: "Levenslang",
+        number: "ICG-PAT-40035",
+      },
+    ],
+    ownership: {
+      current: {
+        company: "Particulier",
+        contact: "Thomas Janssen",
+        email: "thomas.janssen@email.be",
+        since: "2025-02-01",
+        verified: true,
+      },
+      history: [
+        {
+          company: "Patagonia Store Antwerpen",
+          from: "2025-01-20",
+          to: "2025-02-01",
+          type: "Retailer",
+        },
+        {
+          company: "Patagonia Europe",
+          from: "2025-01-15",
+          to: "2025-01-20",
+          type: "Fabrikant",
+        },
+      ],
+    },
+  },
 ]
 
 export const sectors = [
@@ -1392,4 +1634,5 @@ export const sectors = [
   { id: "Voeding", label: "Voeding", icon: "Utensils" },
   { id: "Machines", label: "Machines", icon: "Cog" },
   { id: "Elektronica", label: "Elektronica", icon: "Lightbulb" },
+  { id: "Kledij", label: "Kledij", icon: "Shirt" },
 ]
