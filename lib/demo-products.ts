@@ -1391,13 +1391,13 @@ export const demoProducts: DemoProduct[] = [
     sectorIcon: "Shirt",
     brand: {
       name: "Patagonia",
-      logo: "/images/patagonia-logo.png",
+      logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Patagonia_%28Unternehmen%29_logo.svg/512px-Patagonia_%28Unternehmen%29_logo.svg.png",
       color: {
-        hue: 30,
-        primary: "oklch(0.45 0.12 30)",
-        primaryForeground: "oklch(0.985 0 0)",
-        secondary: "oklch(0.96 0.03 30)",
-        muted: "oklch(0.92 0.04 30)",
+        hue: 0,
+        primary: "oklch(0.20 0 0)",
+        primaryForeground: "oklch(0.98 0 0)",
+        secondary: "oklch(0.96 0.01 80)",
+        muted: "oklch(0.94 0.02 80)",
       },
     },
     product: {
@@ -1405,7 +1405,7 @@ export const demoProducts: DemoProduct[] = [
       series: "R1 Ultralight",
       model: "40035-BCBN",
       description: "Warme en ademende technische fleece hoodie, essentieel voor pro-atleten en toegewijde klimmers. Bijna zo licht als je favoriete basislaag, met een glad, slijtvast buitenoppervlak. Onderdeel van de Free Wall Kit, ontworpen voor veeleisende multipitch routes. Gemaakt in een Fair Trade Certified fabriek.",
-      image: "https://eu.patagonia.com/dw/image/v2/BDJB_PRD/on/demandware.static/-/Sites-patagonia-master/default/dw1234567/images/hi-res/40035_BCBN.jpg",
+      image: "https://eu.patagonia.com/dw/image/v2/BDJB_PRD/on/demandware.static/-/Sites-patagonia-master/default/dw5fc31a6c/images/hi-res/40035_BCBN.jpg",
       serialNumber: "PAT-2025-R1U-40035",
       upc: "195699401234",
       manufactureDate: "2025-01-15",
