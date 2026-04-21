@@ -1383,6 +1383,259 @@ export const demoProducts: DemoProduct[] = [
       ],
     },
   },
+
+  // PATAGONIA - Sustainable Clothing
+  {
+    id: "patagonia-better-sweater",
+    sector: "Kledij",
+    sectorIcon: "Shirt",
+    brand: {
+      name: "Patagonia",
+      logo: "/images/patagonia-logo.png",
+      color: {
+        hue: 220,
+        primary: "oklch(0.45 0.15 220)",
+        primaryForeground: "oklch(0.985 0 0)",
+        secondary: "oklch(0.96 0.02 220)",
+        muted: "oklch(0.92 0.03 220)",
+      },
+    },
+    product: {
+      name: "Better Sweater Fleece Jacket",
+      series: "Better Sweater",
+      model: "25528-NENA",
+      description: "100% gerecycled polyester fleece jas met Fair Trade Certified naaien. Klassiek design met milieubewuste productie.",
+      image: "https://eu.patagonia.com/dw/image/v2/BDJB_PRD/on/demandware.static/-/Sites-patagonia-master/default/dwc6d63e96/images/hi-res/25528_NENA.jpg",
+      serialNumber: "PAT-2024-BS-78432",
+      upc: "195699246874",
+      manufactureDate: "2024-02-10",
+      warrantyUntil: "2026-02-10",
+      status: "active",
+    },
+    documentation: [
+      {
+        title: "Verzorgingsinstructies",
+        type: "PDF",
+        category: "Handleidingen",
+        url: "https://www.patagonia.com/product-care/",
+        size: "0.5 MB",
+        language: "NL",
+        icon: "Book",
+      },
+      {
+        title: "Reparatiegids",
+        type: "PDF",
+        category: "Handleidingen",
+        url: "https://www.patagonia.com/repairs/",
+        downloadUrl: "https://www.patagonia.com/on/demandware.static/-/Library-Sites-PatagoniaShared/default/repair-guide.pdf",
+        size: "2.3 MB",
+        language: "EN",
+        icon: "Wrench",
+      },
+      {
+        title: "Footprint Chronicles",
+        type: "Web",
+        category: "Duurzaamheid",
+        url: "https://www.patagonia.com/our-footprint/",
+        language: "EN",
+        icon: "Globe",
+      },
+      {
+        title: "Fair Trade Certificaat",
+        type: "PDF",
+        category: "Certificaten",
+        downloadUrl: "https://www.patagonia.com/on/demandware.static/-/Library-Sites-PatagoniaShared/default/fair-trade-cert.pdf",
+        size: "0.8 MB",
+        language: "EN",
+        icon: "Award",
+      },
+    ],
+    specifications: {
+      key: [
+        { label: "Materiaal", value: "100% Recycled Polyester", icon: "Recycle" },
+        { label: "Gewicht", value: "482g", icon: "Scale" },
+        { label: "Maat", value: "M", icon: "Ruler" },
+        { label: "Kleur", value: "New Navy", icon: "Palette" },
+      ],
+      categories: [
+        {
+          name: "Materiaalsamenstelling",
+          specs: [
+            { label: "Buitenstof", value: "100% gerecycled polyester fleece" },
+            { label: "Gramgewicht", value: "286 g/m²" },
+            { label: "Voering", value: "100% gerecycled polyester mesh" },
+            { label: "Ritsen", value: "Gerecycled nylon" },
+          ],
+        },
+        {
+          name: "Afmetingen (Maat M)",
+          specs: [
+            { label: "Borst", value: "109 cm" },
+            { label: "Lengte rug", value: "71 cm" },
+            { label: "Mouwlengte", value: "87 cm" },
+            { label: "Gewicht", value: "482 g" },
+          ],
+        },
+        {
+          name: "Kenmerken",
+          specs: [
+            { label: "Sluiting", value: "Volledige rits met garage" },
+            { label: "Zakken", value: "2 handwarmers + 1 borstzak" },
+            { label: "Manchetten", value: "Elastisch afgewerkt" },
+            { label: "Pasvorm", value: "Regular fit" },
+          ],
+        },
+        {
+          name: "Verzorging",
+          specs: [
+            { label: "Wassen", value: "Machine was koud (30°C)" },
+            { label: "Drogen", value: "Lage temperatuur" },
+            { label: "Strijken", value: "Niet strijken" },
+            { label: "Chemisch reinigen", value: "Niet aanbevolen" },
+          ],
+        },
+      ],
+    },
+    replacementParts: [
+      {
+        id: "pat-zipper",
+        name: "Vervangende Rits",
+        partNumber: "PAT-ZIP-001",
+        category: "Reparatie",
+        quantity: 1,
+        unit: "stuks",
+        lifespan: "Levenslang",
+        description: "Originele YKK vervangende rits voor Better Sweater",
+        specifications: [
+          { label: "Type", value: "YKK #5 Vislon" },
+          { label: "Lengte", value: "66 cm" },
+        ],
+      },
+      {
+        id: "pat-pull",
+        name: "Rits Pull Tab",
+        partNumber: "PAT-PULL-001",
+        category: "Accessoires",
+        quantity: 1,
+        unit: "stuks",
+        lifespan: "5+ jaar",
+        description: "Vervangende rits pull voor eenvoudiger gebruik",
+        specifications: [
+          { label: "Materiaal", value: "Gerecycled nylon" },
+          { label: "Kleur", value: "Zwart" },
+        ],
+      },
+    ],
+    optionalProducts: [
+      {
+        id: "pat-nano-puff",
+        name: "Nano Puff Jacket",
+        partNumber: "84212-BLK",
+        category: "Layering",
+        description: "Lichtgewicht isolerende jas, perfect als middenlaag",
+        specifications: [
+          { label: "Isolatie", value: "60g PrimaLoft Gold" },
+          { label: "Gewicht", value: "337g" },
+        ],
+      },
+      {
+        id: "pat-cap-air",
+        name: "Capilene Air Baselayer",
+        partNumber: "36555-BLK",
+        category: "Basislaag",
+        description: "Merino/gerecycled polyester baselayer voor optimale temperatuurregeling",
+        specifications: [
+          { label: "Materiaal", value: "51% Merino, 49% Recycled Polyester" },
+          { label: "Gewicht", value: "170g" },
+        ],
+      },
+      {
+        id: "pat-torrent",
+        name: "Torrentshell 3L Jacket",
+        partNumber: "85240-BLK",
+        category: "Buitenlaag",
+        description: "Waterdichte en ademende buitenlaag",
+        specifications: [
+          { label: "Membraan", value: "H2No Performance" },
+          { label: "Waterkolom", value: "20.000 mm" },
+        ],
+      },
+    ],
+    maintenance: {
+      history: [
+        {
+          date: "2024-08-15",
+          type: "Reparatie",
+          description: "Rits gerepareerd via Worn Wear programma",
+          technician: "Patagonia Repair Center EU",
+          partsUsed: ["YKK Zipper slider"],
+          nextService: "Op aanvraag",
+        },
+      ],
+      upcoming: [],
+    },
+    sustainability: {
+      co2Footprint: "12.4 kg CO₂e",
+      recyclability: "85%",
+      repairabilityScore: 9,
+      materials: [
+        { name: "Gerecycled Polyester", percentage: 92, recyclable: true },
+        { name: "Gerecycled Nylon", percentage: 5, recyclable: true },
+        { name: "Elastaan", percentage: 2, recyclable: false },
+        { name: "Overig", percentage: 1, recyclable: false },
+      ],
+      certifications: ["Fair Trade Certified", "bluesign approved", "1% for the Planet"],
+      energySavingFeatures: [
+        "100% gerecycled materiaal - 76% minder CO₂ uitstoot",
+        "Fair Trade fabriek - eerlijke lonen voor arbeiders",
+        "Worn Wear reparatieprogramma - verlengt levensduur",
+        "Recycleerbaar via Patagonia retourprogramma",
+      ],
+    },
+    certifications: [
+      {
+        name: "Fair Trade Certified",
+        issuer: "Fair Trade USA",
+        validUntil: "2026-12-31",
+        number: "FT-2024-PAT-78432",
+      },
+      {
+        name: "bluesign approved",
+        issuer: "bluesign technologies",
+        validUntil: "2025-12-31",
+        number: "BS-2024-78432",
+      },
+      {
+        name: "1% for the Planet",
+        issuer: "1% for the Planet",
+        validUntil: "2025-12-31",
+        number: "1FTP-PAT-2024",
+      },
+    ],
+    ownership: {
+      current: {
+        company: "Particulier",
+        contact: "Sophie De Vries",
+        email: "sophie.devries@email.be",
+        since: "2024-03-01",
+        verified: true,
+      },
+      history: [
+        {
+          company: "A.S.Adventure België",
+          from: "2024-02-15",
+          to: "2024-03-01",
+          type: "Retailer",
+        },
+        {
+          company: "Patagonia Europe",
+          from: "2024-02-10",
+          to: "2024-02-15",
+          type: "Fabrikant",
+        },
+      ],
+    },
+  },
 ]
 
 export const sectors = [
@@ -1392,4 +1645,5 @@ export const sectors = [
   { id: "Voeding", label: "Voeding", icon: "Utensils" },
   { id: "Machines", label: "Machines", icon: "Cog" },
   { id: "Elektronica", label: "Elektronica", icon: "Lightbulb" },
+  { id: "Kledij", label: "Kledij", icon: "Shirt" },
 ]
